@@ -24,7 +24,7 @@ int main(){
     time=time1+time2;
     hour=time/60;
     minute=time%60;
-    if (hour>24){
+    if (hour>=24){
         hour=hour%24;
         
 
